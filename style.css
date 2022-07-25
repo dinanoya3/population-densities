@@ -162,8 +162,8 @@ header {
   bottom: 24px;
   left: 24px;
   z-index: 1;
-  background: #ffffff;
-  color: #222222;
+  /* background: none; */
+  color: #f1f1e3;
   padding: 24px;
 }
 
@@ -180,6 +180,7 @@ svg {
   height: 100%;
 }
 
+/* path tag represents individual country */
 path {
   transition: fill 0.5s;
 }
